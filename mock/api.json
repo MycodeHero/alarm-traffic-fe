@@ -1,0 +1,10 @@
+{
+    "/rule/list": "./data/ruleList.json",
+    "/rule/update": "./data/ruleUpdate.json",
+    "/rule/delete": "./data/ruleDelete.json",
+    "/rule/add": "./data/ruleAdd.json",
+    "/falconTpl/list": "./data/falconTplList.json",
+    "/falconTpl/update": "./data/falconTplUpdate.json",
+    "/falconTpl/delete": "./data/falconTplDelete.json",
+    "/falconTpl/add": "./data/falconTplAdd.json"
+}

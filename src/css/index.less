@@ -1,0 +1,98 @@
+html, body, #app, #app>div{
+    height:100%;
+    overflow:hidden;
+}
+.project {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    .header {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height:58px;
+        width: 100%;
+        box-shadow: 0 2px 8px #f0f1f2;
+        .ant-row {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            .project-msg {
+                float:left;
+                line-height: 58px;
+                margin-left: 20px;
+                a {
+                    display:inline-block;
+                    width: 36px;
+                    height: 36px;
+                    .logo-icon {
+                        display:inline-block;  
+                        width: 100%;
+                        height: 100%;
+                        background: url('../img/alarm.png') no-repeat;
+                        background-size: 100% 100%;
+                    }
+                    vertical-align: middle;
+                };
+                .project-name {
+                    font-size: 18px;
+                    margin:0 30px 0 10px;
+                    color: rgb(138,186,240);
+                    vertical-align: middle;
+                }
+            }
+            .user-info {
+                line-height: 58px;
+                float:right;
+                margin-right:30px;
+                .username {
+                    margin-right: 10px;
+                    vertical-align: middle;
+                }
+                .exit {
+                    display:inline-block;
+                    width: 45px;
+                    height: 28px;
+                    background: rgb(138,186,240);
+                    text-align:center;
+                    border-radius:4px;
+                    line-height: 25px;
+                    color:white;
+                    vertical-align: middle;
+                }
+            }
+        }
+    };
+    .content-main{
+        box-sizing: border-box;
+        padding-top: 65px;
+        height: 100%;
+        .ant-row {
+            width: 100%;
+            height: 100%;
+            .routes {
+                height: 100%;
+                .content {
+                    margin: 0 auto;
+                    transition: padding 1s linear;
+                    width: 99%;
+                    height: 100%;
+                    box-sizing: border-box;
+                    padding-left: 16.666667%;
+                    .table {
+                        height:92%;
+                        overflow-y:scroll
+                        .ant-table-row td div {
+                            text-align: center;
+                        }
+                        .ant-table-row td a {
+                            padding: 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

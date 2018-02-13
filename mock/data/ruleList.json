@@ -1,0 +1,61 @@
+{
+	"data": [{
+        "id": "1",
+        "source_app": "crm",
+        "url": "http://tiresias.dev.jiedaibao.com/site/test",
+        "name": "在线客服用户排队人数",
+        "metric": "waitNum",
+        "stat_type": "2",
+        "acquisition_type": "1",
+        "is_last_compare": "0",
+        "last_compare_value": "",
+        "stat_frequency": "2",
+        "start_time": null,
+        "alarm_rules": {
+            "op": "",
+            "right_value": "5",
+        },
+        "priority": "1",
+        "start_time": "16:18",
+        "end_time": "16:18",
+        "user": "lujing",
+        "username": "卢景",
+        "is_deleted": "0",
+        "es_index": "",
+        "es_ext_rule_type": "0",
+        "es_ext_rule": "",
+        "metric_id": "0"
+    },
+    {
+        "id": "2",
+        "source_app": "crm",
+        "url": "http://tiresias.dev.jiedaibao.com/site/test",
+        "name": "在线客服用户排队人数",
+        "metric": "waitNum",
+        "stat_type": "1",
+        "acquisition_type": "1",
+        "is_last_compare": "0",
+        "last_compare_value": "",
+        "stat_frequency": "2",
+        "start_time": null,
+        "alarm_rules": {
+            "op": "<",
+            "right_value": "5",
+        },
+        "priority": "1",
+        "create_time": "2018-01-05 16:18:15",
+        "modify_time": "2018-01-05 16:18:15",
+        "user": "lujing",
+        "username": "卢景",
+        "is_deleted": "0",
+        "es_index": "",
+        "es_ext_rule_type": "3",
+        "es_ext_rule": "",
+        "metric_id": "0"
+    }],
+	"error":{
+		"returnCode":0,
+		"returnMessage":"test string",
+		"returnUserMessage":"test string"
+	}
+}

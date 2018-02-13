@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "source_app": "crm",
+            "create_time": "2018-01-04 15:12:26",
+            "modify_time": "2018-01-12 12:46:00",
+            "user": "lujing",
+            "username": "卢景",
+            "is_deleted": "0",
+            "user_list": "lujing"
+        },
+        {
+            "id": "4",
+            "source_app": "crmTest2",
+            "create_time": "2018-01-10 12:06:35",
+            "modify_time": "2018-01-10 12:06:35",
+            "user": "lujing",
+            "username": "卢景",
+            "is_deleted": "0",
+            "user_list": ""
+        }
+    ],
+    "error": {
+        "returnCode": 0,
+        "returnMessage": "操作成功",
+        "returnUserMessage": "操作成功"
+    }
+}
