@@ -9,9 +9,9 @@ import Mask from '../Mask/Mask'
 class AlertEdit extends Component {
     constructor (props) {
         super(props)
-        this.renderElement = this.renderElement.bind(this);
-        this.isShow = this.isShow.bind(this);
-        this.selectShow = this.selectShow.bind(this);
+        this.renderElement = this.renderElement.bind(this)
+        this.isShow = this.isShow.bind(this)
+        this.selectShow = this.selectShow.bind(this)
         this.state = {
             sshow: false
         }
@@ -28,7 +28,7 @@ class AlertEdit extends Component {
         })
     }
     type (name, record) {
-        var _self = this;
+        var _self = this
         switch(name) {
             case 'stat_type':
                 return (<Select option={stat_type} sign={name} default={record["stat_type"]} record={record}/>)

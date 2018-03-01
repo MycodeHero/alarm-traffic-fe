@@ -8,12 +8,12 @@ const Mock = require('webpack-dev-server-simple-mock')
 
 const SRC_DIR = "src";
 const DIST_DIR = "dist";
-const MOCK_API_JSON_FILE = './mock/api.json';
+const MOCK_API_JSON_FILE = './mock/api.json'
 
-const FONTS_DIR = `static/fonts`;
-const IMGS_DIR = `static/imgs`;
-const JS_DIR = 'static/js';
-const CSS_DIR = 'static/css';
+const FONTS_DIR = `static/fonts`
+const IMGS_DIR = `static/imgs`
+const JS_DIR = 'static/js'
+const CSS_DIR = 'static/css'
 
 const DEBUG = process.env.NODE_ENV === "development";
 const hash = DEBUG ? "" : '[chunkhash:8]';
