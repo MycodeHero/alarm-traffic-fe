@@ -286,7 +286,9 @@ class EditableTable extends React.Component {
     }
   render() {
     return(<div className="table">
-            <Button className="editable-add-btn" onClick={this.handleAdd}>增加</Button>
+            <div className="edit-style">
+              <Button className="editable-add-btn" onClick={this.handleAdd}>增加</Button>
+            </div>
             <Table bordered dataSource={this.state.data} columns={this.columns} pagination={false}/>
             <AlertEdit doms= {this.state.doms} handleChange={this.handleChange} param={this.sign} save={this.save} cancel={this.cancel} onDelete={this.onDelete}/>
         </div>)

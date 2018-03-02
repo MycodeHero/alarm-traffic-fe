@@ -46,12 +46,12 @@ class App extends Component {
                                 <div className="content" style={this.state.status ? {paddingLeft: '16.66666%', height: this.height} : {paddingLeft: '0px',height: this.height}}>
                                     <Route exact path="/" component={EditTable}/>
                                     <Route  path="/ctr" component={EditTable}/>
-                                    <Footer/>
                                 </div>
                             </div>
                         </Router>
                     </Row>
                 </div>
+                <Footer/>
         </div>
         )
     }
